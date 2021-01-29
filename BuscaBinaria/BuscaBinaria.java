@@ -3,7 +3,7 @@ public class BuscaBinaria {
   public int busca(int[] array, int chave) {
     int i = -1;
     int a = 0;
-    int b = array.length;
+    int b = array.length-1; //Correção nesta linha
 
     while(a <= b) {
       int meio = (a +b) / 2;
